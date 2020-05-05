@@ -1,3 +1,7 @@
+{{ with .Site.Social.dev_to }}
+  <li><a href="//dev.to/{{.}}" target="_blank" title="Dev" class="fab fa-dev"></a></li>
+{{ end }}
+
 {{ with .Site.Social.github }}
   <li><a href="//github.com/{{.}}" target="_blank" title="GitHub" class="fa fa-github"></a></li>
 {{ end }}
